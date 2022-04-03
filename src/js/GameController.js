@@ -33,7 +33,6 @@ export default class GameController {
   startPosition(band1, band2, count) {
     const arr = [];
     this.humanTeam = (generateTeam(band1, count));
-    //console.log(humanTeam);
     this.comTeam = (generateTeam(band2, count));
     //console.log(comTeam[0])
     const humanCharacter1 = new PositionedCharacter(this.humanTeam[0], 57);
